@@ -3,6 +3,7 @@ import {
   SiTypescript,
   SiExpress,
   SiDjango,
+  SiNodedotjs,
 } from "react-icons/si";
 import {
   FaGit,
@@ -10,7 +11,6 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
-  FaNode,
   FaReact,
 } from "react-icons/fa";
 
@@ -34,7 +34,7 @@ export const stackData = [
   },
   {
     title: "Node JS",
-    img: FaNode,
+    img: SiNodedotjs,
   },
   { title: "Express JS", img: SiExpress },
   { title: "PostgreSQL", img: SiPostgresql },
