@@ -4,6 +4,7 @@ import {
   SiExpress,
   SiDjango,
   SiNodedotjs,
+  SiTailwindcss,
 } from "react-icons/si";
 import {
   FaGit,
@@ -33,12 +34,14 @@ export const stackData = [
     img: FaReact,
   },
   {
+    title: "Tailwind",
+    img: SiTailwindcss,
+  },
+  {
     title: "Node JS",
     img: SiNodedotjs,
   },
   { title: "Express JS", img: SiExpress },
   { title: "PostgreSQL", img: SiPostgresql },
-  { title: "Python", img: FaPython },
-  { title: "Django", img: SiDjango },
   { title: "Git", img: FaGit },
 ];
